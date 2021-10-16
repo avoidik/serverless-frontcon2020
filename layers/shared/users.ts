@@ -1,4 +1,4 @@
-import { aws, Schema, model } from 'dynamoose';
+import { aws, Schema, model } from '/opt/nodejs/dynamoose';
 
 if (process.env.STAGE === 'local') {
   aws.ddb.local(process.env.DYNAMO_URL);
